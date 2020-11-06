@@ -14,4 +14,4 @@ jobs:
       - run: go version
 
       - name: Install Dependencies
-        run: go mod init
+        run: go mod download
